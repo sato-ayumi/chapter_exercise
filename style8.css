@@ -28,17 +28,17 @@ main {
 }
 
 .box {
-  background-color: #ffd700;
   width: 30%;
   height: 200px;
   margin-right: 5%;
   margin-bottom: 40px;
+  background-color: yellow;
 }
 
 .box:first-child,
 .box:nth-child(5),
 .box:last-child {
-  background-color: #ff8c00;
+  background-color: orange;
 }
 
 .box:nth-child(3n) {
